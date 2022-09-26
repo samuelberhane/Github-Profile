@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem;
+  color: aqua;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+
+form {
+  max-width: 100%;
+  width: 300px;
+  margin: 1rem auto;
+}
+
+form input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 15px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.search-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.search-user {
+  padding: 10px 1rem;
+  background-color: blue;
+  color: #fff;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.search-user:hover {
+  background-color: rgb(26, 105, 141);
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px;
+  padding: 1.5rem 2rem;
+  padding-top: 5.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  margin-top: 6rem;
+  width: 60%;
+  position: relative;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.user-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: -75px;
+  box-shadow: 0 0 0px 5px rgb(26, 105, 141);
+}
+
+.all-repos {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(20, 18, 18);
+  color: #fff;
+  gap: 1rem;
+  padding: 10px 3px;
+}
+
+.repos-name {
+  width: 100%;
+}
+
+.all-repos p {
+  box-shadow: 0 0 3px;
+  width: 200px;
+  padding: 8px 10px;
+  overflow-y: auto;
+}
+
+.username {
+  color: aqua;
+}
+
+.name {
+  color: blueviolet;
+}
+
+.country {
+  color: rgb(63, 180, 48);
+}
+
+.number {
+  color: rgb(68, 88, 19);
+}
